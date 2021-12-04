@@ -16,13 +16,17 @@ body {margin: 30px;}
 </head>
 <body>
 <form>
-Multiplikator:<br> <input type="text" id="firstNumber" /><br>
-Tage im Monat:<br> <input type="text" id="secondNumber" /><br>
-Verkaufte Menge:<br> <input type="text" id="thirdNumber" /><br>
-<input type="button" style="margin-top: 10px" onClick="multiplyBy()" Value="Berechnen" />
-</form>
-<div style="margin-top: 10px">Das Ergebnis: <span id = "result"></span> </div>
-</p>
+    <div style="text-align: center;">
+        Multiplikator:<br> <input type="number" id="firstNumber" /><br>
+        Tage im Monat:<br> <input type="number" id="secondNumber" /><br>
+        Verkaufte Menge:<br> <input type="number" id="thirdNumber" /><br>
+    </div>
+    <div style="text-align: center;">
+        <input type="button" style="margin-top: 10px" onClick="multiplyBy()" Value="Berechnen" />
+        </form>
+        <div style="margin-top: 10px">Das Ergebnis: <span id = "result"></span> </div>
+        </p>
+    </div>
 </body>
 <script>
     function multiplyBy()
