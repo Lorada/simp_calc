@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html> 
+<head>
+    <style type = text/css>
+    body {font-size: 8vw; background-color: rgb(59, 59, 59); color:white}
+    input {font-size: 5vw;}
+    </style>
+<meta charset=utf-8 />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+<style type="text/css">
+body {margin: 30px;}
+</style> 
+</head>
+<body>
+<form>
+Multiplikator:<br> <input type="text" id="firstNumber" /><br>
+Tage im Monat:<br> <input type="text" id="secondNumber" /><br>
+Verkaufte Menge:<br> <input type="text" id="thirdNumber" /><br>
+<input type="button" style="margin-top: 10px" onClick="multiplyBy()" Value="Multiply" />
+</form>
+<div style="margin-top: 10px">The Result is : <span id = "result"></span> </div>
+</p>
+</body>
+<script>
+    function multiplyBy()
+    {
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        num3 = document.getElementById("thirdNumber").value;
+        document.getElementById("result").innerHTML = Math.trunc((num3/num2) * num1);
+    }
+</script>
+</html>
