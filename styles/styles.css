@@ -1,6 +1,6 @@
 *{
     color: white;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(90, 0, 0);
 }
 
 .rand {
@@ -18,9 +18,11 @@
 }
 
 input {
+    place-self: center;
     font-weight: normal;
     font-size: larger;
-    justify-content: center;
     margin-right: 5px;
     padding: 2px;
+    text-align: center;
+    width: 50%;
     }
