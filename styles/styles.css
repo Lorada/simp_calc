@@ -1,0 +1,26 @@
+*{
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.rand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kido {
+    display:flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+input {
+    font-weight: normal;
+    font-size: larger;
+    justify-content: center;
+    margin-right: 5px;
+    padding: 2px;
+    }
